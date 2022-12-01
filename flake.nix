@@ -73,5 +73,8 @@
           ];
         };
       };
+
+      "nixos@your-hostname" = self.homeConfigurations."nixos@your-hostname".activationPackage;
+
     };
 }
